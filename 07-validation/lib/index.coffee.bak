@@ -97,7 +97,7 @@ exports.validate = (data) ->
 
   ############################################ SMOKE TEST ############################################
   # Test Case 28 :- Check for any additional wrong input
-  if data.length > 6 then return false;
+
 
   ############################################ SMOKE TEST ############################################
 

@@ -307,7 +307,7 @@ describe '07-validation', ->
 
 	############################################ TEST CASES FOR SMOKE TEST ############################################
    
-       # Will add more cases 
+     
 
   # !!!!!
   # Add more tests for different data that users might try to provide!

@@ -55,7 +55,14 @@ test.describe 'Adslot website', ->
     browser.findElement(webdriver.By.xpath('//div[4]/div[2]/div/div/div[1]/div/div/div/div/div/p[1]'))
     .isDisplayed()
     ## Check the Text
-    assert browser.findElement(webdriver.By.xpath('//div[4]/div[2]/div/div/div[1]/div/div/div/div/div/p[1]')).getText(),'Fill out the form below and we’ll be in-touch as soon as possible.'    
+    assert browser.findElement(webdriver.By.xpath('//div[4]/div[2]/div/div/div[1]/div/div/div/div/div/p[1]')).getText(),'Fill out the form below and we’ll be in-touch as soon as possible.'
+    
+    ## Check the Support Button
+    #if browser.findElement(webdriver.By.css('button[type=submit]')).isDisplayed() then browser.findElement(webdriver.By.css('button[type=submit]')).click()
+    #browser.wait(webdriver.until.titleIs('Adslot Support.'), 3000)
+    #assert browser.getTitle(),'Adslot Support.'
+
+    
     #################################### TEST CASE 3 END ################################################
 
 
